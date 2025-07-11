@@ -2,9 +2,9 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Manuel d'utilisation – Clip Snap</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="manual.css" />
 </head>
 <body>
   <div class="container">
@@ -12,71 +12,64 @@
 
     <h2>🎯 À quoi sert Clip Snap ?</h2>
     <p>
-      Clip Snap vous permet de capturer une portion précise de l’écran visible (par exemple sur Twitch),
-      en créant automatiquement une image <strong>JPG</strong> avec un aperçu et un bouton de téléchargement.
+      <strong>Clip Snap</strong> vous permet de capturer une portion précise de l’écran visible
+      (par exemple sur <strong>Twitch</strong>), en générant automatiquement une image
+      <strong>JPG</strong> avec aperçu et bouton de téléchargement.
     </p>
 
     <h2>🛠️ Installation manuelle (Chrome)</h2>
     <ol>
-      <li>Téléchargez le dossier <code>clip_snap</code> contenant les fichiers (manifest.json, popup.html, etc.).</li>
-      <li>Ouvrez Google Chrome et allez à : <code>chrome://extensions</code></li>
-      <li>Activez le <strong>mode développeur</strong> (en haut à droite)</li>
+      <li>Téléchargez le dossier <code>clip_snap</code> (fichiers manifest, popup...)</li>
+      <li>Ouvrez Chrome : <code>chrome://extensions</code></li>
+      <li>Activez le <strong>mode développeur</strong></li>
       <li>Cliquez sur <strong>« Charger l’extension non empaquetée »</strong></li>
       <li>Sélectionnez le dossier <code>clip_snap</code></li>
-      <li>L’extension apparaîtra dans votre barre d’extension Chrome ✅</li>
+      <li>✅ L’extension apparaît dans votre barre d’extensions</li>
     </ol>
 
     <h2>⚠️ Ne pas modifier les fichiers</h2>
     <p>
-      Le fonctionnement est optimisé tel quel. Toute modification manuelle peut rendre l’extension instable ou inutilisable.
+      Le fonctionnement est optimisé tel quel. Toute modification manuelle peut entraîner
+      une instabilité ou des erreurs.
     </p>
 
     <h2>✨ Utilisation</h2>
     <ul>
-      <li>Rendez-vous sur <strong>Twitch</strong> sur une page contenant un clip</li>
-      <li>Cliquez sur l’icône Clip Snap dans la barre Chrome</li>
-      <li>Cliquez sur le bouton <strong>« Sélection manuelle (JPG) »</strong></li>
-      <li>Un curseur en croix apparaît 🖱️</li>
-      <li>Cliquez-glissez pour sélectionner une zone à capturer</li>
-      <li>Un aperçu apparaît avec l’image et deux boutons :
+      <li>Ouvrez <strong>Twitch</strong> sur un clip</li>
+      <li>Cliquez sur l’icône <strong>Clip Snap</strong></li>
+      <li>Sélectionnez <strong>« Sélection manuelle (JPG) »</strong></li>
+      <li>🖱️ Un curseur en croix s'affiche</li>
+      <li>Cliquez-glissez pour capturer une zone</li>
+      <li>Un aperçu apparaît avec :
         <ul>
-          <li><strong>📥 Télécharger</strong> pour enregistrer</li>
-          <li><strong>❌ Annuler</strong> pour recommencer</li>
+          <li>📥 <strong>Télécharger</strong></li>
+          <li>❌ <strong>Annuler</strong></li>
         </ul>
       </li>
-      <li>L’image est enregistrée dans vos téléchargements sous le nom :
-        <code>clip_snap_<em>timestamp</em>.jpg</code>
-      </li>
+      <li>📁 Le fichier est enregistré sous : <code>clip_snap_timestamp.jpg</code></li>
     </ul>
 
-    <hr/>
-
-    <h2>🚧 Fonctionnalités prévues (roadmap)</h2>
+    <h2>🚧 Fonctionnalités prévues</h2>
     <ul>
       <li>📸 Support du format PNG</li>
       <li>🧠 Détection automatique de la zone vidéo</li>
       <li>🎞️ Captures animées (GIF / WebM)</li>
-      <li>⚙️ Paramètres personnalisables (qualité, nom, raccourcis...)</li>
+      <li>⚙️ Paramètres qualité, nom, raccourcis</li>
       <li>🖼️ Galerie locale des captures</li>
-      <li>🎯 Détection automatique du streamer (nom)</li>
+      <li>🎯 Détection automatique du nom du streamer</li>
     </ul>
 
-    <hr/>
-
     <h2>📧 Support & contact</h2>
+    <p>Pour toute question ou bug, contactez :</p>
+    <p><strong>📩 cornetdev@gmail.com</strong></p>
+
+    <h2>🔒 Politique De Confidentialité</h2>
     <p>
-      Pour toute question, bug ou suggestion, n’hésitez pas à contacter le développeur :
-      <br><strong>📩 <a href="mailto:cornetdev@gmail.com">cornetdev@gmail.com</a></strong>
+      Aucune donnée personnelle n’est collectée ou transmise. Clip Snap fonctionne uniquement
+      localement. ➡️ <a href="https://xaviouche76.github.io/clip-snap-policy/">Lire la politique</a>
     </p>
 
-        <div class="btn-container">
-      <a href="https://xaviouche76.github.io/clip-snap-policy/" class="btn">🔒 Politique De Confidentialité</a>
-    </div>
-
-
-    <p class="footer">
-      © 2025 Clip Snap – Tous droits réservés.
-    </p>
+    <footer>© 2025 Clip Snap – Tous droits réservés.</footer>
   </div>
 </body>
 </html>
